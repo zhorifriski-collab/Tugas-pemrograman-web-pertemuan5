@@ -1,0 +1,25 @@
+/* Mengatur tata letak menu navigasi menggunakan Flexbox di sisi kiri */
+.menu-kiri {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: #1f4e79;
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+/* Mengatur gaya teks menu */
+.menu-kiri a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Efek saat kursor diarahkan ke menu */
+.menu-kiri a:hover {
+    text-decoration: underline;
+}
